@@ -11,7 +11,7 @@ title               = "Andrew Bennet"
 pygmentsuseclasses  = true
 #disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
-#googleAnalytics     = "UA-123-45"
+googleAnalytics     = "UA-104482643-1"
 
 [permalinks]
 #blog  = "blog/:slug/"
