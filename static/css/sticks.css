@@ -1,0 +1,96 @@
+.hidden{
+  display: none;
+}
+
+#how-to-play-toggle{
+  font-size: 1.2em;
+  color: #006eb1;
+  cursor: pointer;
+}
+
+#hints-mode{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#how-to-play{
+  border: #006eb1 solid 1px;
+  color: #006eb1;
+  padding: 5px;
+  font-size: 0.8em;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.button-like{
+  margin: 10px;
+  padding: 5px;
+  border: #006eb1 solid 1px;
+  border-radius: 5px;
+  color: #006eb1;
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none; 
+}
+.button-like.disabled{
+  color: grey;
+  border: grey solid 1px;
+  cursor: default;
+}
+.button-like:not(.disabled):hover{
+  color: white;
+  background-color: #006eb1;
+}
+
+#sticks{
+  font-size: 30px;
+}
+
+.row{
+  text-align: center;
+}
+
+.stick{
+  padding: 2px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.stick.fixed{
+  text-decoration: line-through;
+  cursor: default;
+}
+
+.stick.clicked{
+  text-decoration: line-through;
+  color: #006eb1;
+}
+
+.stick:after{
+  content: "I";
+}
+
+#done-button{
+  height: 30px;
+  width: 80px;
+}
+
+.hidden{
+  display: none;
+}
+
+#xor{
+  border: solid 1px;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16pt;
+  margin: auto;
+  text-align: center;
+  padding: 4px;
+}
+
+#xor-result{
+  font-weight: bold;
+}
