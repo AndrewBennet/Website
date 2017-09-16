@@ -10,9 +10,9 @@ I have a few coding side projects. Most of them are on [GitHub](https://github.c
 
 An iOS app for iPhone and iPad, to catalogue books and track reading progress. It's free in the [App Store](https://itunes.apple.com/us/app/reading-list-a-book-tracking-log/id1217139955?mt=8), and [open source](https://github.com/AndrewBennet/readinglist), released under the MIT licence.
 
-### [iStockcheck](https://github.com/AndrewBennet/iStockcheck)
+### [iStockcheck](https://www.istockcheck.co.uk)
 
-A macOS app which monitors iPhone stock levels in Apple Stores in the UK, and sends notifications when a particular model is in stock at a particular store.
+A website which provides iPhone stock monitoring at Apple Stores in the UK, sending notifications when a desired models come in stock.
 
 ### [Sticks](../sticks)
 
