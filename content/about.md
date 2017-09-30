@@ -8,4 +8,4 @@ My name is Andrew.
 
 I'm a software developer at [Symplectic](http://symplectic.co.uk).
 
-I'm also a part-time magician <i class="fa fa-magic"></i>
+I'm also a part-time magician and member of <a href="http://themagiccircle.co.uk">The Magic Circle</a> <i class="fa fa-magic"></i>
