@@ -2,6 +2,7 @@
 	<head>
 		<title>MyCoin</title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto|PT Sans|Lato" rel="stylesheet">
+
 		<style>
 			* {
       			font-family: sans-serif;
@@ -79,26 +80,33 @@
 			
 			coinNameSuffixes = ['coin', 'block', 'bit', 'store', 'chain', 'o', 'vuw', 'xor', 'xo', 'ly', 'pay'],
 			
-			adjectives = ['revolutionary', 'novel', 'up-and-coming', 'exciting', 'fascinating', 'explosive', 'frankly pretty crappy'],
+			adjectives = ['revolutionary', 'novel', 'up-and-coming', 'exciting', 'fascinating', 'explosive', 'documented'],
 			
 			cryptoAdjectives = ['trustless', 'decentralised', 'privacy-oriented', 'distributed', 'reputation-protocol-based', 'Etherium-based']
 			
 			cryptoSubjects = ['the blockchain', 'the problem of micropayments', 'the proof-of-work initiative', 'node-chains', 'the scaling problem', 'trust ensurance', 'value evaluation'],
 			
 			cryptoAssets = ['token', 'asset', 'coin'],
+
+			people = ['John McAffe', 'Roger Ver', 'Andreas Antonopoulos', 'Satoshi'],
+
+			cryptoUseCases = ['bubble tea payment', 'wealth-storage', 'remote verification', 'value-extraction', 'purchasing a Lambo', 'mining bitcoin'],
 			
 			startingSentences = ['{coinname} is {a adjective}, {cryptoAdjective} approach to {cryptoSubject}.',
 				'Introducing {coinname}: a {cryptoAdjective} {cryptoAsset} which promises to revolutionise {cryptoSubject}.',
 				'The future is here and the future is {coinname}.',
-				'Examining the possibilities of {cryptoSubject} is {a adjective} topic of focus in recent times. The introduction of {coinname} utilises {cryptoSubject} to provide {a adjective} solution.'],
+				'Examining the possibilities of {cryptoSubject} is {a adjective} topic of focus in recent times. The introduction of {coinname} utilises {cryptoSubject} to provide {a adjective} solution.',
+				],
 
 			genericPlatitudes = ['{coinname} is being developed by the best minds in the crypo-space.',
-				'John McAffe recently described {coinname} as "{adjective}".',
+				'{person} recently described {coinname} as "{adjective}".',
 				'With a market capitalisation of $' + Math.floor(Math.random() * 10000) + ' billion, {coinname} is taking the cryptoworld by storm.',
 				'{coinname} recently published its {adjective} whitepaper, and is opening an ICO shortly.',
 				'Just last week, {coinname} grew by ' + Math.floor(Math.random() * 1000) + '%.',
 				'{coinname} is a must-have addition to any respectable crypto-portfolio.',
-				'This is the future of trust.'],
+				'This is the future of trust.',
+				'{coinname} is becoming the {cryptoAsset} of choice for {cryptoUseCase}.'
+				],
 
 			pleasForMoney = ['{coinname} can be obtained through our dedicated exchange: {coinname}Trade.',
 				'The {coinname} team welcomes additional liquidity to faciliate growth.',
@@ -114,7 +122,9 @@
 				str = replaceAll(str, 'pleaForMoney', pleasForMoney);
 				str = replaceAll(str, 'cryptoAdjective', cryptoAdjectives);
 				str = replaceAll(str, 'adjective', adjectives);
+				str = replaceAll(str, 'person', people);
 				str = replaceAll(str, 'cryptoSubject', cryptoSubjects);
+				str = replaceAll(str, 'cryptoUseCase', cryptoUseCases);
 				str = replaceAll(str, 'cryptoAsset', cryptoAssets);
 				str = replaceAll(str, 'coinname', coinName);
 				return str;

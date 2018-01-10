@@ -17,3 +17,9 @@ A website which provides iPhone stock monitoring at Apple Stores in the UK, send
 ### [Sticks](../sticks)
 
 A puzzle game, hosted on this website. Play against the computer crossing off sticks; the winner is the player who does not cross off the final stick.
+
+
+### [MyCoin](../coins.html)
+
+Cryptocoin generator. Doubled last week.
+
