@@ -7,7 +7,6 @@
 			* {
       			font-family: sans-serif;
     		}
-
     		#root {
     			margin: 50px 10% 0px 10%;
     		}
@@ -32,110 +31,5 @@
 		<div>
 	</body>
 
-	<script>
-		/* Crappy code to do basic string find-and-replacements */
-		var random = function(array) {
-				return array[Math.floor(Math.random() * array.length)]
-			},
-			startsWithVowel = function(str) {
-				if (str.startsWith('a') || str.startsWith('e') || str.startsWith('i') || str.startsWith('o') || str.startsWith('u')) {
-					return true;
-				}
-				return false;
-			},
-			replaceAll = function(input, placeholder, replacement) {
-				while (input.includes('{' + placeholder + '}')) {
-					var chosenReplacement;
-					if (typeof replacement === 'string') {
-						chosenReplacement = replacement;
-					}
-					else {
-						chosenReplacement = random(replacement);
-					}
-
-					input = input.replace('{' + placeholder + '}', chosenReplacement);
-				}
-				while (input.includes('{a ' + placeholder + '}')) {
-					var chosenReplacement;
-					if (typeof replacement === 'string') {
-						chosenReplacement = replacement;
-					}
-					else {
-						chosenReplacement = random(replacement);
-					}
-					if (startsWithVowel(chosenReplacement)) {
-						chosenReplacement = 'an ' + chosenReplacement;
-					}
-					else {
-						chosenReplacement = 'a ' + chosenReplacement;
-					}
-
-					input = input.replace('{a ' + placeholder + '}', chosenReplacement);
-				}
-				return input;
-			},
-
-			/* Word pieces */
-			coinNamePrefixes = ['Bit', 'Digi', 'Crypt', 'Rai', 'Priv', 'Nano', 'Ledger', 'Block', 'Decentra', 'Trust', 'Rai', 'Doge', 'Claxo', 'IO', 'World pay'],
-			
-			coinNameSuffixes = ['coin', 'block', 'bit', 'store', 'chain', 'o', 'vuw', 'xor', 'xo', 'ly', 'pay'],
-			
-			adjectives = ['revolutionary', 'novel', 'up-and-coming', 'exciting', 'fascinating', 'explosive', 'documented'],
-			
-			cryptoAdjectives = ['trustless', 'decentralised', 'privacy-oriented', 'distributed', 'reputation-protocol-based', 'Etherium-based']
-			
-			cryptoSubjects = ['the blockchain', 'the problem of micropayments', 'the proof-of-work initiative', 'node-chains', 'the scaling problem', 'trust ensurance', 'value evaluation'],
-			
-			cryptoAssets = ['token', 'asset', 'coin'],
-
-			people = ['John McAffe', 'Roger Ver', 'Andreas Antonopoulos', 'Satoshi'],
-
-			cryptoUseCases = ['bubble tea payment', 'wealth-storage', 'remote verification', 'value-extraction', 'purchasing a Lambo', 'mining bitcoin'],
-			
-			startingSentences = ['{coinname} is {a adjective}, {cryptoAdjective} approach to {cryptoSubject}.',
-				'Introducing {coinname}: a {cryptoAdjective} {cryptoAsset} which promises to revolutionise {cryptoSubject}.',
-				'The future is here and the future is {coinname}.',
-				'Examining the possibilities of {cryptoSubject} is {a adjective} topic of focus in recent times. The introduction of {coinname} utilises {cryptoSubject} to provide {a adjective} solution.',
-				],
-
-			genericPlatitudes = ['{coinname} is being developed by the best minds in the crypo-space.',
-				'{person} recently described {coinname} as "{adjective}".',
-				'With a market capitalisation of $' + Math.floor(Math.random() * 10000) + ' billion, {coinname} is taking the cryptoworld by storm.',
-				'{coinname} recently published its {adjective} whitepaper, and is opening an ICO shortly.',
-				'Just last week, {coinname} grew by ' + Math.floor(Math.random() * 1000) + '%.',
-				'{coinname} is a must-have addition to any respectable crypto-portfolio.',
-				'This is the future of trust.',
-				'{coinname} is becoming the {cryptoAsset} of choice for {cryptoUseCase}.'
-				],
-
-			pleasForMoney = ['{coinname} can be obtained through our dedicated exchange: {coinname}Trade.',
-				'The {coinname} team welcomes additional liquidity to faciliate growth.',
-				'', '', '', '', '']
-
-			// Build the coin name once
-			coinName = random(coinNamePrefixes) + random(coinNameSuffixes);
-			
-			interpolate = function(input) {
-				var str = input;
-				str = replaceAll(str, 'startingSentence', startingSentences);
-				str = replaceAll(str, 'genericPlatitude', genericPlatitudes);
-				str = replaceAll(str, 'pleaForMoney', pleasForMoney);
-				str = replaceAll(str, 'cryptoAdjective', cryptoAdjectives);
-				str = replaceAll(str, 'adjective', adjectives);
-				str = replaceAll(str, 'person', people);
-				str = replaceAll(str, 'cryptoSubject', cryptoSubjects);
-				str = replaceAll(str, 'cryptoUseCase', cryptoUseCases);
-				str = replaceAll(str, 'cryptoAsset', cryptoAssets);
-				str = replaceAll(str, 'coinname', coinName);
-				return str;
-			}
-
-		document.getElementById('name').innerHTML = coinName;
-		document.getElementById('description').innerHTML = interpolate('{startingSentence} {genericPlatitude} {pleaForMoney}');
-		
-		var fonts = ['Open Sans', 'Raleway', 'Roboto', 'PT Sans', 'Lato', 'sans-serif'];
-		document.getElementById('name').style.fontFamily = random(fonts);
-		document.getElementById('description').style.fontFamily = random(fonts);
-
-	</script>
+	<script src="coins-src/coins.js" type="text/javascript"></script>
 </html>
