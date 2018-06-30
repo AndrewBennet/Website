@@ -8,7 +8,7 @@ I have a few coding side projects. Most of them are on [GitHub](https://github.c
 
 ### [Reading List](https://readinglist.app)
 
-An iOS app for iPhone and iPad, to catalogue books and track reading progress. It's free in the [App Store](https://itunes.apple.com/us/app/reading-list-a-book-tracking-log/id1217139955?mt=8), and [open source](https://github.com/AndrewBennet/readinglist), released under the MIT licence.
+An iOS app for iPhone and iPad, to catalogue books and track reading progress. It's free in the [App Store](https://itunes.apple.com/us/app/reading-list-a-book-tracking-log/id1217139955?mt=8), and [open source](https://github.com/AndrewBennet/readinglist), released under the GPL-3.0 licence.
 
 ### [iStockCheck](https://www.istockcheck.co.uk)
 
