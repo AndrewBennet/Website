@@ -34,12 +34,6 @@ weight                 = -100
 identifier             = "projects"
 url                    = "/projects/"
 
-[[menu.main]]
-name                   = "Sticks"
-weight                 = -100
-identifier             = "sticks"
-url                    = "/sticks/"
-
 [params]
 latestpostscount       = 0                             # how many posts to display on the home page
 i18n_flags             = false                         # whether to display small country flags for available translations
