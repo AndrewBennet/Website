@@ -6,6 +6,6 @@ draft: false
 
 My name is Andrew.
 
-I'm a software developer at [Symplectic](http://symplectic.co.uk).
+I'm a software developer at [Symplectic](http://symplectic.co.uk) during the day, and developer of the iOS app [Reading List](https://readinglist.app) on the side.
 
 I'm also a part-time magician and a member of <a href="http://themagiccircle.co.uk">The Magic Circle</a> <i class="fa fa-magic"></i>
