@@ -6,7 +6,7 @@ draft: false
 
 ### [Reading List](https://readinglist.app)
 
-An iOS app for iPhone and iPad, to track your books and reading progress. It's free in the [App Store](https://itunes.apple.com/us/app/reading-list-a-book-tracking-log/id1217139955?mt=8), and [open source](https://github.com/AndrewBennet/readinglist), released under the GPL-3.0 licence.
+An iOS app for iPhone and iPad, to track your books and reading progress. It's available in the [App Store](https://itunes.apple.com/us/app/reading-list-a-book-tracking-log/id1217139955?mt=8).
 
 ### [Sticks](../sticks)
 
