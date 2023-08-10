@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2023-08-10T08:36:24+01:00
-draft: true
+draft: false
 ---
 
 ### Contact
