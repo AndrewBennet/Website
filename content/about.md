@@ -7,5 +7,3 @@ draft: false
 Hi, I'm Andrew 👋
 
 I'm a software developer at [Symplectic](http://symplectic.co.uk), and the developer of iOS app [Reading List](https://readinglist.app).
-
-I'm also a magician and a member of <a href="http://themagiccircle.co.uk">The Magic Circle</a> <i class="fa fa-magic"></i>

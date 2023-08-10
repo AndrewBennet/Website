@@ -29,10 +29,16 @@ identifier             = "about"
 url                    = "/about/"
 
 [[menu.main]]
-name                   = "Projects"
+name                   = "Apps"
 weight                 = -100
-identifier             = "projects"
-url                    = "/projects/"
+identifier             = "apps"
+url                    = "/apps/"
+
+[[menu.main]]
+name                   = "Contact"
+weight                 = -90
+identifier             = "contact"
+url                    = "/contact/"
 
 [params]
 latestpostscount       = 0                             # how many posts to display on the home page
