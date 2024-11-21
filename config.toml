@@ -59,7 +59,7 @@ linkedin               = "https://linkedin.com/in/andrew-bennet-9a935b83/"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
 selfintro              = "Software Developer"                            # appears in the site header when set to a non-empty string
 twitter                = "https://twitter.com/AndrewBennet"
-#mastodon               = "//example.com/@you"
+mastodon               = "@andrewbennet@mastodon.social"
 # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
 # highlightjsStyle     = "darcula"
 
