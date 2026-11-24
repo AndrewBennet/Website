@@ -6,4 +6,4 @@ draft: false
 
 Hi, I'm Andrew 👋
 
-I'm a software developer at [Symplectic](http://symplectic.co.uk), and the developer of iOS app [Reading List](https://readinglist.app).
+I'm a software developer. I am the developer of iOS apps [Reading List](https://readinglist.app) and [Choo](https://choo.express).
